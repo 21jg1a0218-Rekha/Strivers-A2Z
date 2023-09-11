@@ -1,0 +1,24 @@
+/* To write a program to that takes a charcter as input and prints 
+1 as A to Z and 0 for a to z -1 otherwise*/
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+	char k;
+	cin>>k;
+	if(k>='A'&&k<='Z')
+	{
+		cout<<"1"<<endl;
+	}
+	else if(k>='a'&&k<='z')
+	{
+		cout<<"0"<<endl;
+	}
+	else{
+		cout<<"-1"<<endl;
+	}
+	return 0;
+	
+}
+
