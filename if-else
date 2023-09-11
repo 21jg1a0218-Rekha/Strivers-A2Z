@@ -1,0 +1,14 @@
+// To write a program about comparision between two numbers and return greater,smaller and equal
+string compareIfElse(int a, int b) {
+	if(a>b)
+	{
+		return "greater";
+	}
+	else if(a==b)
+	{
+		return "equal";
+	}
+	else{
+		return "smaller";
+	}
+}
